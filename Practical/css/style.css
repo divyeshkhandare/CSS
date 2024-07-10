@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+
+}
+
+/* Header */
+.nav-bar{
+    width: 100%;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.nav-main-font{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-ul , li, a { 
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    gap: 25px;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: 300;
+}
+
+.menu-ul :hover{
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+.nav-icon i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav-icon :hover{
+    font-size: 22px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+/* Header ends */
+
+/* section starts */
+.banner .bannerbg img{
+    width: 1440px;
+    justify-items: center;
+    margin: 20px 10% 10px 10%;
+}
+
+.text{
+    width: 100%;
+    text-align:center ;
+}
+
+.main-image{
+    width: 1440px;
+}
+
+.images{
+    width: 1440px;
+    align-content: center;
+    margin: 0 20% 0 20%;
+}
+
+.sum-img{
+    width: 1440px;
+}
+
+.images img{
+    width: 285px;
+    height: 285px;
+    float: left;
+    padding:15px ;
+}
+
+.t-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    
+}   
+.txt1{
+    margin-left: 320px;
+}
+.txt2{
+    margin-left: 100px;
+    margin-right: 120px;
+}
+
+.txt3{
+    margin-right: 100px;
+}
+
+
+.title h1{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn button{
+    font-size: 16px;
+    padding: 11px 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-style: none;
+    margin-left: 47%;
+    margin-top: 50px;
+}
+
+.btn :hover{
+    cursor: pointer;
+    transition: ease-in-out;
+    background-color: #979595;
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+.sum-img :hover{
+    cursor: pointer;
+}
+
+/* footer */
+.main-footer{
+    display: flex;
+    gap: 150px;
+    margin-top: 5%;
+    justify-content: center;
+}
+.f-logo img{
+    width: 200px;                                                                                                       
+    height: 200px;                                                                                                              
+}
+
+.f-text4 i {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+footer ul,i:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(../imag/bgimage/bgimage.svg);
+    font-family: "Poppins", sans-serif;
+}
+
+.Header {
+    width: 100%;
+    height: 90px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo, .Logo {
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.nav-ul,
+li,
+a {
+    list-style: none;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    gap: 40px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    transition: 0.4s;
+}
+
+.Herosection{
+    width: 1170px;
+    height: 810px;
+    margin-left: 20%;    
+}
+.Sec1{
+    display: flex;
+    padding: 100px 40px;
+  
+   
+
+}
+
+.sec1txt1{
+    font-family: Manrope, sans-serif;
+    color: #57b33e;
+    font-size: 20px;
+    line-height: 27.3px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.titletxt{
+    font-family: Manrope, sans-serif;
+    color: #1f242c;
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.ptxt{
+    padding-right: 10%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.abtbtn{
+    width: fit-content;
+    padding: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-color: #ff7029;
+    background-color: #ff7029;
+    color: #fff;
+    
+}
+
+.abtbtn > i{
+    padding-left: 15px;
+}
+.section-service{
+    width: 100%;
+
+}
+
+.section-heading{
+
+   margin: 0px 550px;
+   font-size: 50px;
+   margin-bottom: 50px;
+
+}
+
+.section-para{
+    color: #484848;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.sevice-img{
+    padding: 30px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+}
+.imgtxt{
+    margin-bottom: 7px;
+    color: #57b33e;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imgpara{
+    text-align: center;
+}
+
+.sec3{
+    margin: 100px 65px 65px;
+}
+.sec3-intro{
+    color: #57b33e;
+    font-size: 20px;
+    line-height: 27.3px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.sec3-para{
+    color: #1f242c;
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.sec3-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 25px;
+    padding: 30px 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #eaeaea;
+}
+
+.sec3-img-txt{
+    margin-bottom: 7px;
+    color: #57b33e;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.sec3-img-para{
+    text-align: center;
+}
+
+.footer{
+    background-color: #1f242c;
+    background-image: url(../imag/footer/footer\ bg.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-h3{
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.footer-li{
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-ul{
+    margin-top: 30px;
+}
+
+.footer-i{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.social > i{
+    color: #fff;
+    margin-top: 30px;                                                                                                                                                                           
+}
+
+
+ .nav-li :hover{
+    cursor: pointer;
+    font-size: 18px;
+    transition-behavior: smooth;
+}
+
+.abtbtn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #ebe4e4;
+    transition: 0.4s;
+}
